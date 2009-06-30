@@ -34,7 +34,7 @@ been inspired by the work of many others, including:
 * Joseph Silvashy, [The Fluid Grid system](http://fluid.gs/)
 
 These templates are offered free of charge in accordance
-with the applicable licenses for 960 Grid System and jQuery.
+with the applicable licenses for [FluidGrids](http://fluidgrids.com/) and [jQuery](http://jquery.com/).
 
 The FluidGrids CSS Framework is released under the GPL/MIT Licenses.
 jQuery is released under the GPL/MIT Licenses: http://jquery.com/
