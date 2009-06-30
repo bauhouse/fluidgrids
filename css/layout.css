@@ -1,0 +1,92 @@
+/*
+-----------------------------------------------
+FluidGrids CSS - Layout
+----------------------------------------------- */
+
+body {
+	color: #333;
+	padding: 0 0 40px;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a {
+	color: #f00;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:hover {
+	color:#000;
+}
+
+
+/* headings
+----------------------------------------------- */
+h1 a {color:#000;}
+h1 a:hover {color:#f00;}
+
+
+/* paragraphs
+----------------------------------------------- */
+p {line-height: 18px;}
+
+
+/* page
+----------------------------------------------- */
+.page {
+	min-width:760px;
+	max-width:1500px;
+	margin:0 auto;
+	padding-top:90px;
+}
+
+
+/* header
+----------------------------------------------- */
+#header {
+	background:#fff; 
+	position:fixed; 
+	z-index:2000;
+	width:100%;
+}
+#header .row {
+	min-width:760px;
+	max-width:1500px;
+	margin:0 auto;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#branding h1 {
+	font-size:5em;
+	margin-bottom:0;
+}
+#branding .content {
+	border:none;
+	padding-top:0;
+}
+#show_grid {
+	font-size:1.5em;
+}
+#header .col1of5 .content {
+	padding-top:28px;
+	text-align:right;
+	padding-right:36px;
+}
+
+
+/* grid borders
+----------------------------------------------- */
+.page {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.head {border-bottom:1px solid #ccc;}
+.head h3 {margin-top:18px; margin-bottom:0;}
+.row {border-bottom:1px solid #ccc;}
+.column .content {border-right:1px solid #ccc; padding-top:18px;}
+.col1of1 .content,
+.lastColumn .content {border-right:none;}
+
+/* Compensate for height added by bottom border */
+.row {margin-top:-1px;}
