@@ -1,0 +1,49 @@
+/*
+-----------------------------------------------
+FluidGrids CSS - Text - em-based
+----------------------------------------------- */
+
+
+/* basic
+----------------------------------------------- */
+body {font: .75em/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;}
+a:focus {outline: 1px dotted invert;}
+
+
+/* headings
+----------------------------------------------- */
+h1 {font-size: 5em;}
+h2 {font-size: 4em;}
+h3 {font-size: 3em;}
+h4 {font-size: 2em;}
+h5 {font-size: 1.5em;}
+h6 {font-size: 1em;}
+
+
+/* lists
+----------------------------------------------- */
+ol {list-style: decimal;}
+ul {list-style: square;}
+li {margin-left: 2.5em;}
+
+
+/* spacing
+----------------------------------------------- */
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset
+{
+	margin-bottom: 1.5em;
+}
