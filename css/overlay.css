@@ -1,0 +1,14 @@
+/*
+-----------------------------------------------
+FluidGrids CSS - Grid Overlay
+----------------------------------------------- */
+
+body {height:100%; position:relative;}
+.section {position:relative;}
+
+div.grid_overlay {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10; display:none;}
+div.lines {position:absolute; top:0; left:0; width:100%; height:100%; background:url('../img/lineheight_18px.png');}
+div.grid {position:absolute; top:0; left:0; width:100%; height:100%;}
+div.grid div.row {position:absolute; top:0; left:0; width:100%; height:100%; background:none;}
+div.grid div.row div.column {background:none; height:100%; border:none;}
+div.grid div.row div.column div.content {background:red; height:100%; opacity:.25; margin:0 18px;}
