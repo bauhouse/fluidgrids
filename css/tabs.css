@@ -1,0 +1,143 @@
+/* Adapt jQuery UI to Fluid 960 Grid System
+------------------------------------------------ */
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { background: #e6e6e6; font-weight: normal; color: #555555; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { background: #dadada; font-weight: normal; color: #212121; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #212121; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { background: #fff; font-weight: normal; color: #212121; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; outline: none; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {background: #fbf9ee; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error {background: #fef1ec; color: #cd0a0a; }
+.ui-state-error a, .ui-widget-content .ui-state-error a { color: #cd0a0a; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text { color: #cd0a0a; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+
+/* Tabs
+----------------------------------*/
+.ui-tabs { padding: .2em; zoom: 1; }
+.ui-tabs .ui-tabs-nav { list-style: none; position: relative; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { position: relative; float: left; border-bottom-width: 0 !important; margin: 0 .2em -1px 0; padding: 0; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em 1em; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px; border-bottom-width: 0; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { padding: 1em 1.4em; display: block; border-width: 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/* Modifications
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+	border: none;
+	}
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+	border: none;
+	}
+
+.ui-tabs {
+	padding:0;
+	padding-top:1px;
+}
+.ui-tabs .ui-tabs-nav {
+	margin-bottom:3em;
+	padding:0;
+}
+.ui-tabs .ui-tabs-nav li {
+	margin-right:4px;
+}
+.ui-tabs .ui-tabs-nav li a {
+	border:none;
+	line-height:3em;
+	padding-top:0;
+	padding-bottom:0;
+}
+.ui-tabs .ui-tabs-panel {
+	padding: 15px;
+	background:#fff;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	padding-bottom:0;
+}
+
+
+.tabs {
+	overflow: hidden;
+}
+
+
+/* vertical tabs
+----------------------------------*/
+.tabs .tablist {
+	padding:0;
+}
+.tablist .ui-tabs-nav {
+	width:30%;
+	margin:0;
+}
+.tablist .ui-tabs-nav li {
+	width:100%;
+	margin:0;
+
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+}
+.tablist .ui-tabs-nav li a {
+	width:90%;
+	padding: .8em 5%;
+	line-height: 1.5em;
+}
+
+.tablist .ui-widget-content {
+	margin-left: 30%;
+	min-height:20em;
+}
+
+#slider li a { height:2.5em; }
+
+.nextTabs {margin-top:10px;}
+
+
+/* rounded corners
+----------------------------------*/
+.ui-tabs-nav .ui-state-default,
+.ui-tabs-nav .ui-widget-content .ui-state-default,
+.ui-tabs-nav .ui-state-hover,
+.ui-tabs-nav .ui-widget-content .ui-state-hover,
+.ui-tabs-nav .ui-state-active,
+.ui-tabs-nav .ui-widget-content .ui-state-active {
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	-webkit-border-top-left-radius: .5em;
+	-webkit-border-top-right-radius: .5em;
+	-moz-border-radius-topleft: .5em;
+	-moz-border-radius-topright: .5em;
+}
+.tablist .ui-tabs-nav .ui-state-default,
+.tablist .ui-tabs-nav .ui-widget-content .ui-state-default,
+.tablist .ui-tabs-nav .ui-state-hover,
+.tablist .ui-tabs-nav .ui-widget-content .ui-state-hover,
+.tablist .ui-tabs-nav .ui-state-active,
+.tablist .ui-tabs-nav .ui-widget-content .ui-state-active {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+}
+
