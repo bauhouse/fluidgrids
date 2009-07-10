@@ -47,27 +47,56 @@ h1 a:hover {color:#f00;}
 
 /* navigation
 ----------------------------------------------- */
-ul.main-nav {border-top:1px solid #ccc;}
-ul.main-nav li {border-right:1px solid #ccc;}
+.nav {
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.nav > li {
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.nav ul {
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.nav a:hover {
+	background-color: #eee;
+	background-color: rgba(238, 238, 238, 0.8);
+}
+.nav li ul {
+	border:1px solid #ccc;
+	border-top:0;
+	left:-1px;
+}
+.nav li ul li a {
+	border-top:1px solid #ccc;
+}
 
-ul.main-nav li ul {
+
+/* main navigation
+----------------------------------------------- */
+.main-nav {border-top:1px solid #ccc;}
+.main-nav li {border-right:1px solid #ccc;}
+
+.main-nav li ul {
 	border:1px solid #ccc;
 	border-bottom:0;
 }
-ul.main-nav li ul li a {
+.main-nav li ul li a {
 	background:#fff;
 	border-bottom:1px solid #ccc;
 }
-ul.main-nav li a:focus {
+.main-nav li a:focus {
 	background:#fff;
 }
-ul.main-nav li ul li a:hover {
+.main-nav li ul li a:hover {
 	background:#fff;
 }
-ul.main-nav li:hover a {
+.main-nav li:hover a {
 	background:#fff;
 }
-ul.main-nav li a:hover {background:#eee;}
-ul.main-nav li:hover ul li a:hover {background:#eee;}
-ul.main-nav li:hover a:active {background:#444;}
-ul.main-nav li:hover ul li a:active {background:#222;}
+.main-nav li a:hover {background:#eee;}
+.main-nav li:hover ul li a:hover {background:#eee;}
+.main-nav li:hover a:active {background:#444;}
+.main-nav li:hover ul li a:active {background:#222;}
