@@ -61,6 +61,7 @@ p {line-height: 18px;}
 	padding:18px;
 }
 
+
 /* fix header to top of page
 -----------------------------------------------
 #header {
@@ -72,3 +73,17 @@ p {line-height: 18px;}
 	padding-top:90px;
 }
 */
+
+
+/* menus
+----------------------------------------------- */
+.menu {
+	list-style:none;
+}
+.menu li {
+	margin:0;
+}
+.menu li a {
+	display:block;
+	padding:4px 8px;
+}
