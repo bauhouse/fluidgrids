@@ -1,0 +1,121 @@
+/*
+-----------------------------------------------
+FluidGrids CSS - Grids Spacing
+----------------------------------------------- */
+
+/* Space before columns
+----------------------------------------------- */
+.pre1of2 {margin-left:50%;}
+
+.pre1of3 {margin-left:33.33333%;}
+.pre2of3 {margin-left:66.66666%;}
+
+.pre1of4 {margin-left:25%;}
+.pre3of4 {margin-left:75%;}
+
+.pre1of5 {margin-left:20%;}
+.pre2of5 {margin-left:40%;}
+.pre3of5 {margin-left:60%;}
+.pre4of5 {margin-left:80%;}
+
+.pre1of6 {margin-left:16.66666%;}
+.pre5of6 {margin-left:83.33333%;}
+
+.pre1of7 {margin-left:14.285714285%;}
+.pre2of7 {margin-left:28.571428571%;}
+.pre3of7 {margin-left:42.857142857%;}
+.pre4of7 {margin-left:57.142857142%;}
+.pre5of7 {margin-left:71.428571428%;}
+.pre6of7 {margin-left:85.714285714%;}
+
+.pre1of8 {margin-left:12.5%;}
+.pre3of8 {margin-left:37.5%;}
+.pre5of8 {margin-left:62.5%;}
+.pre7of8 {margin-left:87.5%;}
+
+.pre1of9 {margin-left:11.111111111%;}
+.pre2of9 {margin-left:22.222222222%;}
+.pre3of9 {margin-left:33.333333333%;}
+.pre4of9 {margin-left:44.444444444%;}
+.pre5of9 {margin-left:55.555555555%;}
+.pre6of9 {margin-left:66.666666666%;}
+.pre7of9 {margin-left:77.777777777%;}
+.pre8of9 {margin-left:88.888888888%;}
+
+.pre1of10 {margin-left:10%;}
+.pre3of10 {margin-left:30%;}
+.pre7of10 {margin-left:70%;}
+.pre9of10 {margin-left:90%;}
+
+.pre1of12 {margin-left:8.333333333%;}
+.pre5of12 {margin-left:41.666666666%;}
+.pre7of12 {margin-left:58.333333333%;}
+.pre11of12 {margin-left:91.666666666%;}
+
+.pre1of16 {margin-left:6.25%;}
+.pre3of16 {margin-left:18.75%;}
+.pre5of16 {margin-left:31.25%;}
+.pre7of16 {margin-left:43.75%;}
+.pre9of16 {margin-left:56.25%;}
+.pre11of16 {margin-left:68.75%;}
+.pre13of16 {margin-left:81.25%;}
+.pre15of16 {margin-left:93.75%;}
+
+
+/* Space after columns
+----------------------------------------------- */
+.post1of2 {margin-right:50%;}
+
+.post1of3 {margin-right:33.33333%;}
+.post2of3 {margin-right:66.66666%;}
+
+.post1of4 {margin-right:25%;}
+.post3of4 {margin-right:75%;}
+
+.post1of5 {margin-right:20%;}
+.post2of5 {margin-right:40%;}
+.post3of5 {margin-right:60%;}
+.post4of5 {margin-right:80%;}
+
+.post1of6 {margin-right:16.66666%;}
+.post5of6 {margin-right:83.33333%;}
+
+.post1of7 {margin-right:14.285714285%;}
+.post2of7 {margin-right:28.571428571%;}
+.post3of7 {margin-right:42.857142857%;}
+.post4of7 {margin-right:57.142857142%;}
+.post5of7 {margin-right:71.428571428%;}
+.post6of7 {margin-right:85.714285714%;}
+
+.post1of8 {margin-right:12.5%;}
+.post3of8 {margin-right:37.5%;}
+.post5of8 {margin-right:62.5%;}
+.post7of8 {margin-right:87.5%;}
+
+.post1of9 {margin-right:11.111111111%;}
+.post2of9 {margin-right:22.222222222%;}
+.post3of9 {margin-right:33.333333333%;}
+.post4of9 {margin-right:44.444444444%;}
+.post5of9 {margin-right:55.555555555%;}
+.post6of9 {margin-right:66.666666666%;}
+.post7of9 {margin-right:77.777777777%;}
+.post8of9 {margin-right:88.888888888%;}
+
+.post1of10 {margin-right:10%;}
+.post3of10 {margin-right:30%;}
+.post7of10 {margin-right:70%;}
+.post9of10 {margin-right:90%;}
+
+.post1of12 {margin-right:8.333333333%;}
+.post5of12 {margin-right:41.666666666%;}
+.post7of12 {margin-right:58.333333333%;}
+.post11of12 {margin-right:91.666666666%;}
+
+.post1of16 {margin-right:6.25%;}
+.post3of16 {margin-right:18.75%;}
+.post5of16 {margin-right:31.25%;}
+.post7of16 {margin-right:43.75%;}
+.post9of16 {margin-right:56.25%;}
+.post11of16 {margin-right:68.75%;}
+.post13of16 {margin-right:81.25%;}
+.post15of16 {margin-right:93.75%;}
