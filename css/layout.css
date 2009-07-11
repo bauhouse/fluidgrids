@@ -62,6 +62,16 @@ p {line-height: 18px;}
 }
 
 
+/* head
+----------------------------------------------- */
+.head h3 {
+	margin-top:18px;
+	margin-bottom:0;
+}
+.column .content {
+	padding-top:18px;
+}
+
 /* fix header to top of page
 -----------------------------------------------
 #header {

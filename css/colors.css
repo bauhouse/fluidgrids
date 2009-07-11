@@ -35,9 +35,8 @@ h1 a:hover {color:#f00;}
 	border-right:1px solid #ccc;
 }
 .head {border-bottom:1px solid #ccc;}
-.head h3 {margin-top:18px; margin-bottom:0;}
 .row {border-bottom:1px solid #ccc;}
-.column .content {border-right:1px solid #ccc; padding-top:18px;}
+.column .content {border-right:1px solid #ccc;}
 .col1of1 .content,
 .lastColumn .content {border-right:none;}
 
