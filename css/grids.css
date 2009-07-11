@@ -15,6 +15,18 @@ http://github.com/stubbornella/oocss/blob/8e6c6e7c7543bc76ea4f870a8ca25d27ac857d
 .column {float:left;}
 .content {padding:0 18px;}
 
+.columnExt {float:right;}
+
+
+/* Alternate clearfix method for .row
+----------------------------------------------- */
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
 
 /* Column Widths
 ----------------------------------------------- */
@@ -75,3 +87,9 @@ http://github.com/stubbornella/oocss/blob/8e6c6e7c7543bc76ea4f870a8ca25d27ac857d
 .col11of16 {width:68.75%;}
 .col13of16 {width:81.25%;}
 .col15of16 {width:93.75%;}
+
+
+/* Fixes for IE
+----------------------------------------------- */
+.row {_overflow:visible;_zoom:1; }
+.column {_zoom:1;}
